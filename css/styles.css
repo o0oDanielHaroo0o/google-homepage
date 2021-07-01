@@ -5,7 +5,6 @@
 body {
   position: relative;
   font-family: arial, sans-serif;
-  font-size: 13px;
   padding-bottom: 15vh;
   min-height: 100vh;
 }
@@ -34,6 +33,11 @@ body {
   color: #000000de;
 }
 
+.nav-links,
+.languages{
+  font-size: 13px;
+}
+
 .main {
   display: flex;
   align-items: center;
@@ -45,11 +49,31 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
-  width: fit-content;
+  width: 580px;
 }
 
-.logo {
-  padding-bottom: 20px;
+.form-searchbox{
+  position: relative;
+  width: 100%;
+  padding: 20px;
+}
+
+.search{
+  width: 100%;
+  padding: 10px 45px 10px 60px;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.searchbox-icons{
+  position: absolute;
+  top: 31px;
+  width: 100%;
+  padding-left: 14px;
+  padding-right: 65px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer {
