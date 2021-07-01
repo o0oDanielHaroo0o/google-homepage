@@ -4,7 +4,7 @@
 
 body {
   position: relative;
-  padding-bottom: 15vh;
+  padding-bottom: 10vh;
   min-height: 100vh;
   font-family: arial, sans-serif;
 }
@@ -14,7 +14,6 @@ body {
   justify-content: flex-end;
   height: 5vh;
   text-align: end;
-  
 }
 
 .nav-bar {
@@ -35,7 +34,7 @@ body {
 }
 
 .nav-links,
-.languages{
+.languages {
   font-size: 13px;
 }
 
@@ -50,44 +49,60 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
-  width: 580px;
+  width: 600px;
+  margin-bottom: 30px;
 }
 
-.form-searchbox{
+.logo {
+  padding-bottom: 20px;
+}
+
+.form-searchbox {
   position: relative;
   width: 100%;
   padding: 20px;
 }
 
-.search{
+.search {
   width: 100%;
-  padding: 10px 45px 10px 60px;
+  padding: 10px 60px 10px 60px;
+  margin-top: -37px;
   border-radius: 30px;
   border: 1px solid #ccc;
   outline: none;
 }
 
-.searchbox-icons{
+.searchbox-icons {
   position: absolute;
-  top: 31px;
+  top: 23px;
   display: flex;
   justify-content: space-between;
   width: 100%;
   padding-left: 14px;
-  padding-right: 65px;
+  padding-right: 55px;
 }
 
-.form-buttons{
+.search-icon {
+  width: 14.5px;
+  height: 14.5px;
+}
+
+.mic-icon {
+  width: 14px;
+  height: 18px;
+}
+
+.form-buttons {
   display: flex;
   justify-content: center;
   height: 70px;
 }
 
-.button{
+.button {
   align-self: center;
   height: 36px;
   padding: 0px 16px;
-  margin: 11px 4px;
+  margin: 11px 6px;
   font-size: 14px;
   border-radius: 4px;
   border: 1px solid rgb(248, 249, 250);
@@ -95,17 +110,43 @@ body {
   color: rgb(60, 64, 67);
 }
 
-.languages{
+.languages {
   color: #222;
 }
 
-.link{
+.link-main {
   text-decoration: none;
 }
 
 .footer {
   position: absolute;
   bottom: 0;
+  display: flex;
+  flex-direction: column;
   width: 100%;
-  height: 15vh;
+  height: 10vh;
+  font-size: 15px;
+  background-color: rgb(242, 242, 242);
+  color: #70757a;
+}
+
+.footer-top {
+  padding: 15px 30px;
+  border-bottom: 1px solid rgb(218, 220, 224);
+}
+
+.footer-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+  font-size: 14px;
+  padding: 0px 20px;
+}
+
+.link-footer {
+  display: inline-block;
+  padding: 15px;
+  text-decoration: none;
+  color: #70757a;
 }

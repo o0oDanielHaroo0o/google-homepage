@@ -1,2 +1,3 @@
-Attempt to rebuild google homepage (easy version)
-Work in Progress
+First HTML/CSS project, proposed by The Odin Project.
+
+Easy Version: Build the Google.com homepage
