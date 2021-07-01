@@ -12,11 +12,19 @@ body {
 
 .header {
   height: 5vh;
+  text-align: end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .nav-bar {
-  text-align: end;
+  display: flex;
+  align-items: center;
   padding: 10px 10px 0px 0px;
+}
+
+.nav-links {
+  padding-right: 10px;
 }
 
 .nav-item {
@@ -34,12 +42,14 @@ body {
 }
 
 .main-content {
-  width: fit-content;
-  margin: auto;
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  width: fit-content;
 }
 
 .logo {
+  padding-bottom: 20px;
 }
 
 .footer {

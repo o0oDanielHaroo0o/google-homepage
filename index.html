@@ -34,23 +34,30 @@
 <body>
     <header class="header">
         <nav class="nav-bar">
-            <a class="nav-item" href="https://mail.google.com/mail/&amp;ogbl">Gmail</a></class=>
-            <a class="nav-item" href="https://www.google.com.ec/imghp?hl=es&ogbl">Imágenes</a></class=>
-            <a class="material-icons nav-item" href="#">
-                apps
-            </a></class=>
-            <a class="material-icons nav-item" href="#">account_circle</a>
+            <div class="nav-links">
+                <a class="nav-item" href="https://mail.google.com/mail/&amp;ogbl">Gmail</a>
+                <a class="nav-item" href="https://www.google.com.ec/imghp?hl=es&ogbl">Imágenes</a>
+            </div>
+            <div class="nav-menus">
+                <a class="material-icons nav-item" href="#">
+                    apps
+                </a>
+                <a class="material-icons nav-item" href="#">account_circle</a>
+            </div>
         </nav>
     </header>
     <main class="main">
         <div class="main-content">
-            <img class="logo" src="/assets/images/googlelogo.png" alt="Logo de Google">
-            <form action="#" method="GET">
-                <input type="search" autofocus>
-                <input type="button" value="Buscar con Google">
-                <input type="button" value="Me siento con suerte">
-            </form>
-            <p>Ofrecido por Google en: <a href="#">English</a> <a href="#">Español (Latinoamérica)</a></p>
+            <div class="logo"> <img src="/assets/images/googlelogo.png" alt="Logo de Google"></div>
+            <div class="form">
+                <form action="#" method="GET">
+                    <div class="form-search"><input type="search" autofocus></div>
+                    <div class="form-buttons"><input type="button" value="Buscar con Google">
+                        <input type="button" value="Me siento con suerte">
+                    </div>
+                </form>
+            </div>
+            <p class="languages">Ofrecido por Google en: <a href="#">English</a> <a href="#">Español (Latinoamérica)</a></p>
         </div>
     </main>
     <footer class="footer">
